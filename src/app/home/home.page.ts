@@ -41,7 +41,7 @@ export class HomePage {
 
   async showIMC() {
     const toast = await this.toastCtrl.create({
-      message: `IMC = ${this.imc.toFixed(2)} - Classificação = ${this.classificao}`,
+      message: `IMC = ${this.imc.toFixed(2)} | Classificação = ${this.classificao}`,
       duration: 3000,
       color: 'secondary'
     })
